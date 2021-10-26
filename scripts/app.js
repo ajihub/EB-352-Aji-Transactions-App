@@ -1,6 +1,7 @@
+import { renderHome } from "./index.js";
 const HomeComponent = {
-    render: () => {
-      return `
+	render: () => {
+		return `
      
       <div id="side-details">
           <h1>Details</h1>
@@ -52,70 +53,69 @@ const HomeComponent = {
       
   </div>
       `;
-    }
-  } 
+	},
+};
 
 const AboutComponent = {
-    render: () => {
-      return `
+	render: () => {
+		return `
         <section>
           <h1>About</h1>
           <p>This is the about page</p>
         </section>
       `;
-    }
-  } 
+	},
+};
 
 const ContactComponent = {
-    render: () => {
-      return `
+	render: () => {
+		return `
         <section>
           <h1>Contact</h1>
           <p>This is the contact page</p>
         </section>
       `;
-    }
-  } 
+	},
+};
 
-  const ErrorComponent = {
-    render: () => {
-      return `
+const ErrorComponent = {
+	render: () => {
+		return `
         <section>
           <h1>Error</h1>
           <p>This is just a testasdasdasdasd</p>
         </section>
       `;
-    }
-  }
+	},
+};
 
+const routes = [
+	{ path: "/", component: HomeComponent },
+	{ path: "/about", component: AboutComponent },
+	{ path: "/contact", component: ContactComponent },
+];
 
-  const routes = [
-    { path: '/', component: HomeComponent, },
-    { path: '/about', component: AboutComponent, },
-    { path: '/contact', component: ContactComponent, },
-  ];
+const router = () => {
+	// TODO: Get the current path
+	// TODO: Find the component based on the current path
+	const path = parseLocation();
+	// console.log(path)
+	// TODO: If there's no matching route, get the "Error" component
+	const { component = ErrorComponent } = findComponentByPath(path, routes) || {};
+	// console.log(component.render())
+	// TODO: Render the component in the "app" placeholder
+	document.getElementById("sectionDiv").innerHTML = component.render();
+	if (path === "/") {
+		renderHome();
+	}
+};
 
+const parseLocation = () => location.hash.slice(1).toLowerCase() || "/";
 
-  const router = () => {
-    // TODO: Get the current path
-    // TODO: Find the component based on the current path 
-    const path = parseLocation();
-    console.log(path)
-    // TODO: If there's no matching route, get the "Error" component
-    const { component = ErrorComponent } = findComponentByPath(path, routes) || {};
-    console.log(component.render())
-    // TODO: Render the component in the "app" placeholder
-    document.getElementById('sectionDiv').innerHTML = component.render();
-  };
+const findComponentByPath = (path, routes) =>
+	routes.find((r) => r.path.match(new RegExp(`^\\${path}$`, "gm"))) || undefined;
 
-  const parseLocation = () => location.hash.slice(1).toLowerCase() || '/';
+window.addEventListener("hashchange", router);
+window.addEventListener("load", router);
 
-  const findComponentByPath = (path, routes) => routes.find(r => r.path.match(new RegExp(`^\\${path}$`, 'gm'))) || undefined;
-
-
-
-  window.addEventListener('hashchange', router);
-  window.addEventListener('load', router);
-
-
-  const sideDtls = document.getElementById('side-details')
+const sideDtls = document.getElementById("side-details");

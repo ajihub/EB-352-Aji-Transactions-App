@@ -1,11 +1,15 @@
 {
-  "name": "npm-init-transac-app",
-  "version": "1.0.0",
-  "description": "package.json",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Aji Soriano",
-  "license": "ISC"
+	"name": "npm-init-transac-app",
+	"version": "1.0.0",
+	"description": "package.json",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"db": "json-server --watch data/db.json --port 3000"
+	},
+	"author": "Aji Soriano",
+	"license": "ISC",
+	"devDependencies": {
+		"json-server": "^0.17.0"
+	}
 }

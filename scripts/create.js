@@ -1,25 +1,25 @@
 // javascript for create.html
-const form = document.querySelector('form');
 
-export const createPost = async (e) =>{
-    
-    e.preventDefault();                                                     
+export const createPost = async (e) => {
+	const form = document.querySelector("form");
+	console.log(form);
+	e.preventDefault();
 
-    const doc = {
-        name: form.title.value,
-        description: form.body.value,
-        type: form.createselect.value,
-        amount: parseInt(form.amount.value)
-    }
+	const doc = {
+		name: form.title.value,
+		description: form.body.value,
+		type: form.createselect.value,
+		amount: parseInt(form.amount.value),
+	};
 
-    await fetch('http://localhost:3000/transactions', {
-        method: 'POST',
-        body: JSON.stringify(doc),
-        headers: {'Content-Type': 'application/json'}
-    })
-    window.location.replace('/index.html')
+	// await fetch("http://localhost:3000/transactions", {
+	// 	method: "POST",
+	// 	body: JSON.stringify(doc),
+	// 	headers: { "Content-Type": "application/json" },
+	// });
+	window.location.href = "/";
 
-    // return;
-}
+	// return;
+};
 
-form.addEventListener('submit', createPost);
+// form.addEventListener('submit', createPost);
