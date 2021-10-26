@@ -19,6 +19,7 @@ Viewed with Live Server
 
 - Array Methods
 - HTTP Requests
+- SPA Routing
 
 
 #### My own ipsum :)

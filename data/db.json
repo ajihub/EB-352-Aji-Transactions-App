@@ -9,80 +9,24 @@
     },
     {
       "id": 2,
-      "name": "Grocery",
-      "description": "Lorem ipsum dolor amet irure qui ram soriano laborum, pariatur magna voluptate. Cillum dolore adipisicing laborum cupidatat veniam. Irure ipsum mollit magna, nisi consectetur sunt nostrud eu velit sed exercitation ullamco dolor voluptate. In laboris officia do ut. Eu minim web sunt aji.",
-      "type": "Expense",
-      "amount": 180
-    },
-    {
-      "id": 3,
-      "name": "Part-time Job Salary",
-      "description": "In ut est non nisi in ramielle, deserunt goodfrontend et velit designer. voluptate excepteur sed consequat duis do aute. Dolore anim excepteur sed, non eiusmod et sint in. Duis nulla pariatur irure ut proident aji ex ajireh ad non developer. Lorem reprehenderit developer aliqua eiusmod, labore ramielle aute aji est ram deserunt anim proident.",
-      "type": "Income",
-      "amount": 200
-    },
-    {
-      "id": 4,
-      "name": "Scholarship",
-      "description": "Put some description here, like who/where you spent it. Put more description here, some text, some additional details.",
-      "type": "Income",
-      "amount": 500
-    },
-    {
-      "id": 5,
       "name": "Girlfriend",
-      "description": "Put some description here, like who/where you spent it. Put more description here, some text, some additional details.",
+      "description": "Lorem ipsum dolor amet irure qui ram soriano laborum, pariatur magna voluptate. Cillum dolore adipisicing laborum cupidatat veniam. Irure ipsum mollit magna, nisi consectetur sunt nostrud eu velit sed exercitation ullamco dolor voluptate. In laboris officia do ut. Eu minim web sunt aji.",
       "type": "Expense",
       "amount": 250
     },
     {
-      "id": 6,
+      "id": 3,
       "name": "Online Selling",
-      "description": "Put some description here, like who/where you spent it. Put more description here, some text, some additional details.",
+      "description": "In ut est non nisi in ramielle, deserunt goodfrontend et velit designer. voluptate excepteur sed consequat duis do aute. Dolore anim excepteur sed, non eiusmod et sint in. Duis nulla pariatur irure ut proident aji ex ajireh ad non developer. Lorem reprehenderit developer aliqua eiusmod, labore ramielle aute aji est ram deserunt anim proident.",
       "type": "Income",
       "amount": 345
     },
     {
-      "id": 7,
-      "name": "Food Panda",
-      "description": "Put some description here, like who/where you spent it. Put more description here, some text, some additional details.",
-      "type": "Expense",
-      "amount": 99
-    },
-    {
-      "name": "Random Stranger",
-      "description": "I got money from a random stranger.",
-      "type": "Income",
-      "amount": 300,
-      "id": 8
-    },
-    {
-      "name": "Charity",
-      "description": "Donated to a nearby hospital.",
-      "type": "Expense",
-      "amount": 50,
-      "id": 9
-    },
-    {
-      "name": "Mall Shopping",
-      "description": "Went to mall. Bought Tuks and lots of stuff.",
-      "type": "Expense",
-      "amount": 199,
-      "id": 10
-    },
-    {
       "name": "Dog Food",
-      "description": "Woof Woof, bought food for doggo browny.",
+      "description": "Enim minim lorem nostrud ut incididunt. Mollit aji labore id occaecat quis ram eu ajireh ad ut. Adipisicing aji magna eiusmod. Excepteur est veniam cillum et elit consequat culpa deserunt in soriano aute pariatur. Sed occaecat ram labore ramielle enim.",
       "type": "Expense",
       "amount": 29,
-      "id": 11
-    },
-    {
-      "name": "Stocks",
-      "description": "Gained profit from my stock investments.",
-      "type": "Income",
-      "amount": 45,
-      "id": 12
+      "id": 4
     }
   ]
 }
