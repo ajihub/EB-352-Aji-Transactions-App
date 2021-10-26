@@ -10,6 +10,29 @@ body {
   background-color:rgb(1, 1, 24);
 }
 
+/* header */
+#header {
+  background-color: darkblue;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerBtn {
+  width: 100px;
+  height: 50px;
+  background: none;
+  border: none;
+  font-weight: 600;
+  color: white;
+  transition: 0.3s;
+}
+
+.headerBtn:hover{
+  background: black;
+}
 
 /* div */
 .root, .detail-root {
@@ -66,8 +89,6 @@ body {
   align-items: center;
   width: 570px;
   padding: 20px 0px;
-
- 
 }
 
 
@@ -105,7 +126,7 @@ h1, h2, h3, h4, h5, h6, p{
   background-color: rgb(13, 17, 251);
 }
 
-.viewBtn {
+.viewBtnBeta {
   background: rgba(244, 255, 45, 0.7);
   border-radius: 20px;
   width: 125px;
@@ -118,7 +139,7 @@ h1, h2, h3, h4, h5, h6, p{
   font-weight: 600;
 }
 
-.viewBtn:hover {
+.viewBtnBeta:hover {
  background: rgb(244, 255, 45);
 }
 

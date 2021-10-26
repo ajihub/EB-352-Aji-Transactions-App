@@ -71,13 +71,6 @@
       "id": 10
     },
     {
-      "name": "Dog Food",
-      "description": "Woof Woof, bought food for doggo browny.",
-      "type": "Expense",
-      "amount": 29,
-      "id": 11
-    },
-    {
       "name": "Stocks",
       "description": "Gained profit from my stock investments.",
       "type": "Income",

@@ -1,7 +1,8 @@
 // javascript for create.html
 const form = document.querySelector('form');
 
-const createPost = async (e) =>{
+export const createPost = async (e) =>{
+    
     e.preventDefault();                                                     
 
     const doc = {
@@ -17,6 +18,8 @@ const createPost = async (e) =>{
         headers: {'Content-Type': 'application/json'}
     })
     window.location.replace('/index.html')
+
+    // return;
 }
 
 form.addEventListener('submit', createPost);
