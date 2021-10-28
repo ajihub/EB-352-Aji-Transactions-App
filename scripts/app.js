@@ -54,9 +54,14 @@ const HomeComponent = {
 const AboutComponent = {
 	render: () => {
 		return `
-        <section>
+        <section class="centerSection">
           <h1>About</h1>
-          <p>This is the about page</p>
+          <p>This is my solution in making a simple transactions application</p>
+          <p><mark> JS Fundamentals! </mark></p>
+          <p><small>JS ES6</small></p>
+          <p><small>JSON Server</small></p>
+          <p><small>Asychronous JavaScript</small></p>
+          <p><small>SPA Routing</small></p>
         </section>
       `;
 	},
@@ -65,9 +70,12 @@ const AboutComponent = {
 const ContactComponent = {
 	render: () => {
 		return `
-        <section>
+        <section class="centerSection">
           <h1>Contact</h1>
-          <p>This is the contact page</p>
+          <p><b>Phone Number:</b> +639071547439</p>
+          <p><b>Email 1:</b> ajisoriano02@gmail.com</p>
+          <p><b>Email 2:</b> ajireh@goodfrontend.dev</p>
+          <p><small>Aji Soriano</small></p>
         </section>
       `;
 	},

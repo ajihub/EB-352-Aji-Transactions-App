@@ -1,32 +1,3 @@
 {
-  "transactions": [
-    {
-      "id": 1,
-      "name": "Allowance",
-      "description": "Lorem ipsum dolor amet deserunt cillum in ad designer web, eiusmod sint ut lorem ex nulla aji. Aliqua esse dolore in tempor, commodo id sed eiusmod non developer soriano. Eu ut fugiat aute. Aute est aji ad ullamco eiusmod consequat deserunt. Sint exercitation web elit aliquip do sed eu. Commodo ea in magna exercitation elit, nostrud consequat ut ajireh ut.",
-      "type": "Income",
-      "amount": 300
-    },
-    {
-      "id": 2,
-      "name": "Girlfriend",
-      "description": "Lorem ipsum dolor amet irure qui ram soriano laborum, pariatur magna voluptate. Cillum dolore adipisicing laborum cupidatat veniam. Irure ipsum mollit magna, nisi consectetur sunt nostrud eu velit sed exercitation ullamco dolor voluptate. In laboris officia do ut. Eu minim web sunt aji.",
-      "type": "Expense",
-      "amount": 250
-    },
-    {
-      "id": 3,
-      "name": "Online Selling",
-      "description": "In ut est non nisi in ramielle, deserunt goodfrontend et velit designer. voluptate excepteur sed consequat duis do aute. Dolore anim excepteur sed, non eiusmod et sint in. Duis nulla pariatur irure ut proident aji ex ajireh ad non developer. Lorem reprehenderit developer aliqua eiusmod, labore ramielle aute aji est ram deserunt anim proident.",
-      "type": "Income",
-      "amount": 345
-    },
-    {
-      "name": "Dog Food",
-      "description": "Enim minim lorem nostrud ut incididunt. Mollit aji labore id occaecat quis ram eu ajireh ad ut. Adipisicing aji magna eiusmod. Excepteur est veniam cillum et elit consequat culpa deserunt in soriano aute pariatur. Sed occaecat ram labore ramielle enim.",
-      "type": "Expense",
-      "amount": 29,
-      "id": 4
-    }
-  ]
+  "transactions": []
 }

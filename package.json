@@ -4,7 +4,8 @@
   "description": "package.json",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "data" : "json-server --watch data/db.json --port 8888"
   },
   "author": "Aji Soriano",
   "license": "ISC"

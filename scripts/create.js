@@ -10,7 +10,7 @@ export const createPost = async (e) => {
 		amount: parseInt(form.amount.value),
 	};
 
-	await fetch("http://localhost:3000/transactions", {
+	await fetch("http://localhost:8888/transactions", {
 		method: "POST",
 		body: JSON.stringify(doc),
 		headers: { "Content-Type": "application/json" },

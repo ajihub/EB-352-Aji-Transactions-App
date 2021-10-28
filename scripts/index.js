@@ -35,7 +35,7 @@ export const renderHome = async (type = "") => {
 
 	const showDetails = async (buttoN) => {
 		const id = buttoN.getAttribute("data-id");
-		const res = await fetch("http://localhost:3000/transactions/" + id);
+		const res = await fetch("http://localhost:8888/transactions/" + id);
 		const transacData = await res.json();
 
 		const template = `
@@ -48,14 +48,14 @@ export const renderHome = async (type = "") => {
 		subDetailscontainer.innerHTML = template;
 
 		deleteBtn.addEventListener("click", async (e) => {
-			const res = await fetch("http://localhost:3000/transactions/" + id, {
+			const res = await fetch("http://localhost:8888/transactions/" + id, {
 				method: "DELETE",
 			});
 			window.location.replace("/index.html");
 		});
 	};
 
-	let endPoint = "http://localhost:3000/transactions";
+	let endPoint = "http://localhost:8888/transactions";
 	const res = await fetch(endPoint);
 	const transacData = await res.json();
 
